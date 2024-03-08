@@ -1,0 +1,41 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.user-info-and-update {
+  display: flex;
+  justify-content: space-between;
+}
+.simple-user-info {
+  border: 1px solid black;
+  padding: 15px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+.update-info {
+  border: 1px solid black;
+  padding: 15px;
+  max-width: 700px;
+  border-radius: 10px;
+}
+.add-post {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+.user-posts {
+  margin-top: 20px;
+}
+.user-post {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+.post-actions [type="button"],
+[type="submit"],
+button {
+  padding: 3px 5px !important;
+}
